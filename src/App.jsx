@@ -127,6 +127,14 @@ function App() {
                 {section}
               </a>
             ))}
+            <a 
+              href="/akshada_resume.pdf" 
+              target="_blank" 
+              rel="noreferrer" 
+              className="nav-link"
+            >
+              Resume
+            </a>
           </div>
         </div>
       </nav>
