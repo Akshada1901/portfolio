@@ -1,6 +1,6 @@
 # Akshada B — Portfolio
 
-🔗 **Live Portfolio:**https://akshada.vercel.app/
+🔗 **Live Portfolio:** https://akshada.vercel.app/
 
 A modern portfolio website built with React and Vite to showcase my work in clinical AI, machine learning, and full-stack development.
 
