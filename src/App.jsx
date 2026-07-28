@@ -37,6 +37,19 @@ function App() {
 
   const projects = [
     {
+      title: "JPMorgan Chase & Co. Job Simulation",
+      subtitle: "Software Engineering Virtual Experience",
+      date: "Recent",
+      description: [
+        "Built a Spring Boot backend application through a hands-on software engineering simulation.",
+        "Integrated Apache Kafka for asynchronous transaction processing and messaging workflows.",
+        "Implemented transaction validation, persistence using Spring Data JPA with an H2 database, and external REST API integration.",
+        "Developed a REST controller exposing a GET endpoint for retrieving user account balances."
+      ],
+      tags: ["Spring Boot", "Java", "Kafka", "REST API", "JPA"],
+      github: "#"
+    },
+    {
       title: "MediMind",
       subtitle: "AI Clinical Decision Support System",
       date: "Jan 2025 – Mar 2025",
@@ -152,7 +165,7 @@ function App() {
                 Akshada B
               </h1>
               <p style={{ fontSize: '1.2rem', color: 'var(--text-secondary)', marginBottom: '2.5rem', maxWidth: '600px' }}>
-                Computer Science sophomore specializing in AI, Machine Learning, and Full-Stack Development. Experienced in building robust clinical AI models, safety platforms, and scalable web systems. Actively seeking Software Engineering and AI internship opportunities to drive real-world impact.
+                Computer Science undergraduate with experience in AI/ML, backend, and full-stack development. Skilled in Java, Python, Spring Boot, Node.js, REST APIs, and machine learning, with a strong interest in building scalable software solutions.
               </p>
               <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>
                 <a href="#projects" onClick={(e) => { e.preventDefault(); scrollTo('projects'); }} className="btn btn-primary">
@@ -184,7 +197,7 @@ function App() {
                   <h3 style={{ fontSize: '1.2rem', marginBottom: '0.5rem' }}>B.Tech in Computer Science and Engineering</h3>
                   <p style={{ color: 'var(--accent-color)', fontWeight: 500, marginBottom: '0.5rem' }}>SRM Institute of Science and Technology, Kattankulathur</p>
                   <p style={{ color: 'var(--text-secondary)', fontSize: '0.9rem', marginBottom: '1rem' }}>2024 – 2028 | Chennai, India</p>
-                  <p>CGPA: 9.19</p>
+                  <p>CGPA: 9.28</p>
                 </div>
               </div>
               <div className="timeline-item right">
@@ -214,11 +227,11 @@ function App() {
             <div className="skills-grid">
               <div className="glass-panel">
                 <h3 style={{ marginBottom: '1rem', borderBottom: '1px solid var(--border-color)', paddingBottom: '0.5rem' }}>Languages</h3>
-                <p style={{ color: 'var(--text-secondary)' }}>Python, C++, C, Java</p>
+                <p style={{ color: 'var(--text-secondary)' }}>C++, Java, Python, C, JavaScript</p>
               </div>
               <div className="glass-panel">
-                <h3 style={{ marginBottom: '1rem', borderBottom: '1px solid var(--border-color)', paddingBottom: '0.5rem' }}>Web Development</h3>
-                <p style={{ color: 'var(--text-secondary)' }}>HTML, CSS, JavaScript, Node.js, Express.js, REST APIs</p>
+                <h3 style={{ marginBottom: '1rem', borderBottom: '1px solid var(--border-color)', paddingBottom: '0.5rem' }}>Frameworks</h3>
+                <p style={{ color: 'var(--text-secondary)' }}>Spring Boot, Node.js, Express.js, Kafka, REST APIs</p>
               </div>
               <div className="glass-panel">
                 <h3 style={{ marginBottom: '1rem', borderBottom: '1px solid var(--border-color)', paddingBottom: '0.5rem' }}>AI & ML</h3>
@@ -226,11 +239,11 @@ function App() {
               </div>
               <div className="glass-panel">
                 <h3 style={{ marginBottom: '1rem', borderBottom: '1px solid var(--border-color)', paddingBottom: '0.5rem' }}>Databases & Tools</h3>
-                <p style={{ color: 'var(--text-secondary)' }}>MySQL, Git, GitHub, PyMuPDF, phpMyAdmin</p>
+                <p style={{ color: 'var(--text-secondary)' }}>MySQL, H2, JPA, Git, Maven, PyMuPDF, phpMyAdmin</p>
               </div>
               <div className="glass-panel" style={{ gridColumn: '1 / -1' }}>
                 <h3 style={{ marginBottom: '1rem', borderBottom: '1px solid var(--border-color)', paddingBottom: '0.5rem' }}>Core Concepts</h3>
-                <p style={{ color: 'var(--text-secondary)' }}>Data Structures & Algorithms, Object-Oriented Programming</p>
+                <p style={{ color: 'var(--text-secondary)' }}>OOP, DSA</p>
               </div>
             </div>
           </div>
@@ -316,6 +329,7 @@ function App() {
                   <div className="glass-panel" style={{ padding: '1.5rem' }}>
                     <h4 style={{ fontSize: '1.1rem', marginBottom: '1rem' }}>Courses</h4>
                     <ul style={{ paddingLeft: '1.2rem', color: 'var(--text-secondary)', fontSize: '0.95rem', display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
+                      <li>JPMorgan Chase & Co. Software Engineering Job Simulation — Forage</li>
                       <li>Object Oriented Programming — NPTEL</li>
                       <li>Java Programming — NPTEL & MyCaptain</li>
                       <li>Operating Systems — NPTEL</li>
