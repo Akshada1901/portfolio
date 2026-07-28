@@ -39,7 +39,7 @@ function App() {
     {
       title: "JPMorgan Chase & Co. Job Simulation",
       subtitle: "Software Engineering Virtual Experience",
-      date: "Recent",
+      date: "July 2026",
       description: [
         "Built a Spring Boot backend application through a hands-on software engineering simulation.",
         "Integrated Apache Kafka for asynchronous transaction processing and messaging workflows.",
@@ -52,7 +52,7 @@ function App() {
     {
       title: "MediMind",
       subtitle: "AI Clinical Decision Support System",
-      date: "Jan 2025 – Mar 2025",
+      date: "2026",
       description: [
         "Addressed clinicians spending excessive time manually reviewing dense, unstructured patient reports.",
         "Parsed medical reports with PyMuPDF; extracted clinical entities using BioBERT and scispaCy.",
@@ -65,7 +65,7 @@ function App() {
     {
       title: "Campus Compass",
       subtitle: "Lost & Found Platform",
-      date: "Aug 2024 – Oct 2024",
+      date: "2026",
       description: [
         "Solved the lack of a centralised, trackable system for reporting and reclaiming lost items on campus.",
         "Full-stack app with JWT auth, photo uploads, and a live status board.",
@@ -77,7 +77,7 @@ function App() {
     {
       title: "Abhaya",
       subtitle: "Smart Emergency Safety App",
-      date: "Nov 2024 – Jan 2025",
+      date: "2025",
       description: [
         "Tackled the absence of a fast, accessible emergency response tool for individuals in unsafe situations.",
         "One-tap SOS alerts with real-time GPS tracking visualised on interactive Leaflet.js maps.",
@@ -243,7 +243,7 @@ function App() {
               </div>
               <div className="glass-panel" style={{ gridColumn: '1 / -1' }}>
                 <h3 style={{ marginBottom: '1rem', borderBottom: '1px solid var(--border-color)', paddingBottom: '0.5rem' }}>Core Concepts</h3>
-                <p style={{ color: 'var(--text-secondary)' }}>OOP, DSA</p>
+                <p style={{ color: 'var(--text-secondary)' }}>OOP, DSA, DBMS</p>
               </div>
             </div>
           </div>
@@ -306,7 +306,7 @@ function App() {
                   <div className="glass-panel" style={{ padding: '1.5rem' }}>
                     <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '0.5rem' }}>
                       <h4 style={{ fontSize: '1.1rem' }}>Finalist — Samsung PRISM Metaverse Ideathon</h4>
-                      <span style={{ color: 'var(--text-secondary)', fontSize: '0.9rem' }}>2025</span>
+                      <span style={{ color: 'var(--text-secondary)', fontSize: '0.9rem' }}>2026</span>
                     </div>
                     <p style={{ color: 'var(--text-secondary)', fontSize: '0.95rem' }}>Led 5-member team into top 20 of 120+ teams (450+ participants).</p>
                   </div>
