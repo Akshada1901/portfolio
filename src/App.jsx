@@ -179,7 +179,7 @@ function App() {
                 <a href="https://github.com/akshada1901" target="_blank" rel="noreferrer" style={{ color: 'var(--text-secondary)' }} className="hover-white">
                   <FaGithub size={24} />
                 </a>
-                <a href="#" target="_blank" rel="noreferrer" style={{ color: 'var(--text-secondary)' }} className="hover-white">
+                <a href="https://www.linkedin.com/in/akshada1901" target="_blank" rel="noreferrer" style={{ color: 'var(--text-secondary)' }} className="hover-white">
                   <FaLinkedin size={24} />
                 </a>
               </div>
